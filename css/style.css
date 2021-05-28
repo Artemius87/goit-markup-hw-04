@@ -85,6 +85,54 @@ ul {
   color: var(--secondary-text-color);
 }
 
+.icon-antena::before {
+  display: inline-block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  background-image: url("../images/antenna.svg");
+  background-position: center;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+}
+
+.icon-clock::before {
+  display: inline-block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  background-image: url("../images/clock.svg");
+  background-position: center;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+}
+
+.icon-vector::before {
+  display: inline-block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  background-image: url("../images/Vector.svg");
+  background-position: center;
+  background-size: 70px 54px;
+  background-repeat: no-repeat;
+}
+
+.icon-astronaut::before {
+  display: inline-block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  background-image: url("../images/astronaut.svg");
+  background-position: center;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+}
+
 .features .spec {
   width: 270px;
 }
