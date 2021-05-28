@@ -21,7 +21,7 @@ ul {
   padding: 0 15px;
   margin: 0 auto;
 
-  outline: 2px solid green;
+  /* outline: 2px solid green; */
 }
 
 /* tagline */
@@ -156,7 +156,8 @@ ul {
 }
 
 .activity .title,
-.team .title {
+.team .title,
+.clients .title {
   padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -167,8 +168,59 @@ ul {
 
 /* team */
 
+.social {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 28px;
+}
+
+.inst {
+  content: "";
+  width: 44px;
+  height: 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/instagram.svg");
+}
+
+.twitt {
+  content: "";
+  width: 44px;
+  height: 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/twitter.svg");
+}
+
+.face {
+  content: "";
+  width: 44px;
+  height: 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/facebook.svg");
+}
+
+.linkedin {
+  content: "";
+  width: 44px;
+  height: 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/linkedin.svg");
+}
+
 .team .list {
   display: flex;
+  justify-content: center;
+}
+
+.cards {
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  border: 1px solid#FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .cards + .cards {
@@ -192,7 +244,7 @@ ul {
 }
 
 .profession {
-  padding-bottom: 30px;
+  padding-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -238,6 +290,90 @@ ul {
 .button-primary:focus {
   color: var(--accent-color);
   background-color: var(--white-color);
+}
+
+/* ---- clients ---- */
+
+.clients .title {
+  padding-top: 94px;
+}
+
+.clients .brand {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+
+.lab-one {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 92px;
+  background-image: url("../images/group\ \(5\)\ \(1\).svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lab-two {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 92px;
+  background-image: url("../images/group\ \(6\).svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lab-three {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 92px;
+  background-image: url("../images/group\ \(1\)\ \(1\).svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lab-four {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 92px;
+  background-image: url("../images/group\ \(2\)\ \(1\).svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lab-five {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 92px;
+  background-image: url("../images/group\ \(3\)\ \(1\).svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lab-six {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: inline-block;
+  content: "";
+  width: 170px;
+  height: 92px;
+  background-image: url("../images/group\ \(4\)\ \(1\).svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Стили для portfolio.html */
