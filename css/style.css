@@ -433,3 +433,33 @@ ul {
 .projects:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+
+/*-- logo-color-- */
+
+.logo-footer::after {
+  display: inline-block;
+  content: "ПРИСОЕДИНЯЙТЕСЬ";
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  margin-left: 156px;
+}
+
+.office::after {
+  display: inline-block;
+  content: "";
+   width: 205px ;
+   height: 44px;
+  margin-left: 70px;
+  background: rgba(255, 255, 255, 0.1);
+  background-image: url("../images/instagram.svg"),
+   url("../images/twitter.svg"),
+    url("../images/facebook.svg"),
+   url("../images/linkedin.svg");
+
+   background-size: 22px 22px, 22px 22px, 22px 22px, 22px 22px;
+  background-position: center left 20px, 70px, 120px, center right 20px;
+  background-repeat: no-repeat;
+  border-radius: 25px;
