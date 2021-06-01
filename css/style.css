@@ -88,6 +88,35 @@ ul {
   margin-left: 30px;
 }
 
+.features .spec::before {
+  content: "";
+  display: block;
+  margin-bottom: 30px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px, 70px;
+}
+
+.spec.icon-antena::before {
+  background-image: url("../images/antenna.svg");
+}
+
+.spec.icon-clock::before {
+  background-image: url("../images/clock.svg");
+}
+
+.spec.icon-nout::before {
+  background-image: url("../images/Vector.svg");
+}
+
+.spec.icon-astronaut::before {
+  background-image: url("../images/astronaut.svg");
+}
+
 /* activity */
 
 .activity {
