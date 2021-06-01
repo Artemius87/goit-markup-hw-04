@@ -313,3 +313,43 @@ ul {
 .projects:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+/* <!-- Постоянные клиенты --> */
+
+.clients {
+  padding: 94px 0;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-item {
+  display: flex;
+  align-items: center;
+}
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+
+.icon-logo {
+  --color2: #afb1b8;
+}
+
+.clients-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--primary-text-color);
+}
