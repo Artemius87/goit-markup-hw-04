@@ -54,27 +54,6 @@ body {
 .logo-color {
   color: var(--accent-color);
 }
-/* ----navigation---- */
-
-.icon-phone::before {
-  display: inline-block;
-  content: "";
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-repeat: no-repeat;
-  background-image: url("../images/смартфон.svg");
-}
-
-.icon-mail::before {
-  display: inline-block;
-  content: "";
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-repeat: no-repeat;
-  background-image: url("../images/конверт.svg");
-}
 
 .site-nav {
   display: flex;
@@ -105,7 +84,6 @@ body {
 
 .site-contacts {
   display: flex;
-
   /* justify-content: flex-end; */
 }
 

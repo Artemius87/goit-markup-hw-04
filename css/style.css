@@ -23,24 +23,10 @@ ul {
 
   /* outline: 2px solid green; */
 }
-
-/* tagline */
-
-.tag-bg {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1600px;
-  height: 600px;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.5),
-      rgba(47, 48, 58, 0.5)
-    ),
-    url("../images/bg-image.jpg");
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
+.cont-footer {
+  height: 252px;
 }
+/* tagline */
 
 .tagline {
   padding-top: 200px;
@@ -85,54 +71,6 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.icon-antena::before {
-  display: inline-block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-  background-image: url("../images/antenna.svg");
-  background-position: center;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-}
-
-.icon-clock::before {
-  display: inline-block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-  background-image: url("../images/clock.svg");
-  background-position: center;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-}
-
-.icon-vector::before {
-  display: inline-block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-  background-image: url("../images/Vector.svg");
-  background-position: center;
-  background-size: 70px 54px;
-  background-repeat: no-repeat;
-}
-
-.icon-astronaut::before {
-  display: inline-block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-  background-image: url("../images/astronaut.svg");
-  background-position: center;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-}
-
 .features .spec {
   width: 270px;
 }
@@ -156,8 +94,7 @@ ul {
 }
 
 .activity .title,
-.team .title,
-.clients .title {
+.team .title {
   padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -168,59 +105,14 @@ ul {
 
 /* team */
 
-.social {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 28px;
-}
-
-.inst {
-  content: "";
-  width: 44px;
-  height: 44px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/instagram.svg");
-}
-
-.twitt {
-  content: "";
-  width: 44px;
-  height: 44px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/twitter.svg");
-}
-
-.face {
-  content: "";
-  width: 44px;
-  height: 44px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/facebook.svg");
-}
-
-.linkedin {
-  content: "";
-  width: 44px;
-  height: 44px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../images/linkedin.svg");
-}
-
 .team .list {
   display: flex;
-  justify-content: center;
 }
 
 .cards {
-  background: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-  border: 1px solid#FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .cards + .cards {
@@ -244,7 +136,7 @@ ul {
 }
 
 .profession {
-  padding-bottom: 16px;
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -290,90 +182,6 @@ ul {
 .button-primary:focus {
   color: var(--accent-color);
   background-color: var(--white-color);
-}
-
-/* ---- clients ---- */
-
-.clients .title {
-  padding-top: 94px;
-}
-
-.clients .brand {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 94px;
-}
-
-.lab-one {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 92px;
-  background-image: url("../images/group\ \(5\)\ \(1\).svg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.lab-two {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 92px;
-  background-image: url("../images/group\ \(6\).svg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.lab-three {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 92px;
-  background-image: url("../images/group\ \(1\)\ \(1\).svg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.lab-four {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 92px;
-  background-image: url("../images/group\ \(2\)\ \(1\).svg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.lab-five {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 92px;
-  background-image: url("../images/group\ \(3\)\ \(1\).svg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.lab-six {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  display: inline-block;
-  content: "";
-  width: 170px;
-  height: 92px;
-  background-image: url("../images/group\ \(4\)\ \(1\).svg");
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 /* Стили для portfolio.html */
@@ -433,33 +241,3 @@ ul {
 .projects:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-
-/*-- logo-color-- */
-
-.logo-footer::after {
-  display: inline-block;
-  content: "ПРИСОЕДИНЯЙТЕСЬ";
-
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16.41px;
-  letter-spacing: 0.03em;
-  margin-left: 156px;
-}
-
-.office::after {
-  display: inline-block;
-  content: "";
-   width: 205px ;
-   height: 44px;
-  margin-left: 70px;
-  background: rgba(255, 255, 255, 0.1);
-  background-image: url("../images/instagram.svg"),
-   url("../images/twitter.svg"),
-    url("../images/facebook.svg"),
-   url("../images/linkedin.svg");
-
-   background-size: 22px 22px, 22px 22px, 22px 22px, 22px 22px;
-  background-position: center left 20px, 70px, 120px, center right 20px;
-  background-repeat: no-repeat;
-  border-radius: 25px;
