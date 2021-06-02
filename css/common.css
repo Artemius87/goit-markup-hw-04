@@ -105,6 +105,7 @@ body {
 /* links */
 .site-contacts .link:hover,
 .site-contacts .link:focus {
+  --color4: var(--accent-color);
   color: var(--accent-color);
 }
 

@@ -23,8 +23,42 @@ ul {
 
   /* outline: 2px solid green; */
 }
+
+.footer-link:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-link {
+  display: flex;
+  margin-bottom: 30px;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.soc-footer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-footer .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: rgba(255, 255, 255, 1);
+}
+
+.social-footer {
+  margin-left: 70px;
+}
+
 .cont-footer {
-  height: 252px;
+  display: flex;
+  align-items: center;
 }
 /* tagline */
 
@@ -341,8 +375,9 @@ ul {
   fill: #afb1b8;
 }
 
-.icon-logo {
-  --color2: #afb1b8;
+.clients-link:hover {
+  border-color: var(--accent-color);
+  --color5: var(--accent-color);
 }
 
 .clients-title {
